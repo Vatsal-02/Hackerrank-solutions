@@ -1,0 +1,5 @@
+n = int(input())
+arr = map(int, input().split())
+z = set(arr)
+z.sort()
+print(z)
